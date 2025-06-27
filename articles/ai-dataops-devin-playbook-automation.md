@@ -3,7 +3,7 @@ title: "AIでDataOpsを変える！Devin Playbookで実現するデータパイ�
 emoji: "🧞‍♂️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Terraform", "Devin"]
-published: false
+published: true
 publication_name: "dely_jp"
 ---
 
