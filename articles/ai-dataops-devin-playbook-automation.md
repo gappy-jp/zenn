@@ -4,6 +4,7 @@ emoji: "🧞‍♂️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Terraform", "Devin"]
 published: false
+publication_name: "dely_jp"
 ---
 
 
