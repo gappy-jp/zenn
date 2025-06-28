@@ -6,6 +6,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 このリポジトリはZenn CLIを使用したコンテンツ管理リポジトリです。Zennは日本の技術記事投稿プラットフォームで、このリポジトリにはMarkdown形式で書かれた記事や本が含まれています。
 
+## Zenn CLIセットアップ
+
+### 前提条件
+- Node.js 14以上が必要（現在のバージョン: 23.5.0）
+
+### 初期セットアップ
+```bash
+# プロジェクトの初期化（既に完了済み）
+npm init --yes
+
+# Zenn CLIのインストール（既に完了済み）
+npm install zenn-cli
+
+# Zennプロジェクトの初期化（既に完了済み）
+npx zenn init
+```
+
+### 現在の状態
+- zenn-cli バージョン: 0.1.162
+- articles/ と books/ ディレクトリが作成済み
+
+### アップデート方法
+```bash
+npm update zenn-cli
+```
+
 ## よく使用するコマンド
 
 ### コンテンツ管理
@@ -16,9 +42,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npx zenn list:articles` - 全記事を一覧表示
 - `npx zenn list:books` - 全書籍を一覧表示
 
-### 公開
+### プレビューと公開
+- `npx zenn preview` - ローカルプレビューサーバーを起動（http://localhost:8000）
 - `npx zenn init` - ディレクトリでZenn CLIを初期化
 - 連携されたGitHubリポジトリにプッシュすることでコンテンツが公開されます
+
+### その他の便利なコマンド
+- `npx zenn --version` - Zenn CLIのバージョン確認
+- `npm update zenn-cli` - Zenn CLIをアップデート
 
 ## リポジトリ構造
 
