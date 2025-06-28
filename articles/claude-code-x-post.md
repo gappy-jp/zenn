@@ -18,6 +18,7 @@ Claude Codeを使って開発をしていると、「この機能を実装でき
 
 Claude Codeで作業中に、以下のように話しかけるだけでXに投稿できます：
 
+
 ![](/images/claude-code-x-post/prompt.png)
 
 プレビューもしてくれる。
